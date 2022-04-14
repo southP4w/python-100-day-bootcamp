@@ -10,4 +10,4 @@ people = int(input("How many people ate?\n"))
 tip = (total_bill / people) * 1.25
 tip_per_person = tip / people
 
-print(f"The total tip is ${tip}.\nThe amount each person pays is ${round(tip_per_person, 2)}")
+print(f"The total tip is ${round(tip, 2)}.\nThe amount each person pays is ${round(tip_per_person, 2)}")
