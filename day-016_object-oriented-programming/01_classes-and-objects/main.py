@@ -1,5 +1,4 @@
 import anotherFile
-from prettytable import PrettyTable
 from turtle import Turtle, Screen
 
 other_variable = anotherFile.another_variable
@@ -14,5 +13,3 @@ franklin.forward(100)
 screen = Screen()
 print(screen.canvheight)
 screen.exitonclick()
-
-table = PrettyTable()
